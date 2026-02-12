@@ -1,13 +1,11 @@
-import Content from "./Content";
-import Footer from "./Footer";
+import React from "react";
+import ThemeCard from "./ThemeCard";
 
 function App() {
   return (
-    <>
-      <h1>My First React App</h1>
-      <Content />
-      <Footer />
-    </>
+    <div>
+      <ThemeCard title="Dark Mode Toggle Card" />
+    </div>
   );
 }
 
